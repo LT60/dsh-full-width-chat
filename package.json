@@ -1,0 +1,49 @@
+{
+  "name": "dsh-full-width-chat",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness plugin: make the conversation fill the whole column instead of a centered ~920px reading column.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "conversation",
+    "layout",
+    "width",
+    "wide-screen",
+    "css"
+  ],
+  "license": "MIT",
+  "author": "LT60",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LT60/dsh-full-width-chat.git"
+  },
+  "homepage": "https://github.com/LT60/dsh-full-width-chat#readme",
+  "bugs": {
+    "url": "https://github.com/LT60/dsh-full-width-chat/issues"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

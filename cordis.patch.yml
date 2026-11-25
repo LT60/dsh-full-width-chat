@@ -1,0 +1,4 @@
+- insert:
+    - id: full-width-chat
+      name: 'dsh-full-width-chat'
+      config: {}

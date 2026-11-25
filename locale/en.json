@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Full-width conversation",
+    "description": "Lets the transcript and the input box span the entire conversation column instead of a centered reading column, for wide monitors.",
+    "detail": "docs/DETAIL.md"
+  }
+}

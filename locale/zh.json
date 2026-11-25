@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "对话铺满宽度",
+    "description": "让对话内容和输入框占满整个对话栏，不再居中留白，适合宽屏显示器。",
+    "detail": "docs/DETAIL.md"
+  }
+}
